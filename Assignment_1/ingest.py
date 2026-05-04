@@ -20,7 +20,7 @@ documents = [
 ]
 
 if not documents:
-    raise ValueError("❌ No readable text found. PDFs may be scanned images.")
+    raise ValueError("No readable text found. PDFs may be scanned images.")
 
 print(f"Loaded {len(documents)} pages with text")
 
@@ -40,4 +40,4 @@ vector_db = Chroma.from_documents(
     persist_directory=VECTOR_DB_PATH
 )
 
-print("✅ Vector database created and automatically persisted")
+print("Vector database created and automatically persisted")
