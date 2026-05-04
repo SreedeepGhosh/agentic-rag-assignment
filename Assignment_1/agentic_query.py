@@ -124,6 +124,6 @@ If nothing meaningful remains, return:
 if __name__ == "__main__":
     q = input("Ask a question: ")
     output = run_agentic_pipeline(q)
-    print("\n✅ ANSWER\n")
+    print("\n ANSWER\n")
     print(output["answer"])
     print("\nLatency:", output["latency"], "seconds")
