@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+venv/
+
+mlruns/
+
+Assignment_1/vectorstore/
+
+.DS_Store
+.env
